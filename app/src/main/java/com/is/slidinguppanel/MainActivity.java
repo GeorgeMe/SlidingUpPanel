@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
             Button f = (Button) findViewById(R.id.follow);
             f.setText(Html.fromHtml(getString(R.string.follow)));
             f.setMovementMethod(LinkMovementMethod.getInstance());
-            f.setOnClickListener(new OnClickListener() {
+            f.setOnClickListener(new View.OnClickListener() {
 
                 @Override
                 public void onClick(View v) {
